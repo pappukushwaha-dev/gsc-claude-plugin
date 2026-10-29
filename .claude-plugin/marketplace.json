@@ -1,0 +1,25 @@
+{
+  "name": "orgalytics",
+  "owner": {
+    "name": "Orgalytics",
+    "url": "https://mcp.orgalytics.ai"
+  },
+  "metadata": {
+    "description": "Marketplace for the Google Search Console MCP client plugin."
+  },
+  "plugins": [
+    {
+      "name": "google-search-console",
+      "displayName": "Google Search Console MCP",
+      "source": "./",
+      "description": "Connect Claude to the Google Search Console MCP server: performance reports with period comparison, growth opportunities near page one, keyword cannibalization checks, sitemaps and your store's GSC Action Center.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Orgalytics",
+        "url": "https://mcp.orgalytics.ai"
+      },
+      "homepage": "https://mcp.orgalytics.ai/",
+      "keywords": ["mcp", "google-search-console", "seo", "analytics", "gsc"]
+    }
+  ]
+}
