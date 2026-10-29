@@ -11,6 +11,10 @@
   <img src="https://img.shields.io/badge/read--only-6b6e86" alt="Read-only">
 </p>
 
+<p align="center">
+  <img src="docs/images/banner.png" alt="Google Search Console Claude Plugin" width="720">
+</p>
+
 Connect Claude to the **Google Search Console MCP server** (`https://mcp.orgalytics.ai/mcp`) so you can pull performance reports with previous-period comparison, find growth opportunities near page one, check keyword cannibalization, and review sitemaps and your store's GSC Action Center — right from Claude.
 
 This plugin is a **client**: it only connects to the hosted MCP server. It does not change or redeploy any server code, so nothing in the existing GSC/app flow is affected.
@@ -24,6 +28,10 @@ This plugin is a **client**: it only connects to the hosted MCP server. It does 
 ```
 
 The first command that calls a tool opens the OAuth consent page in your browser. See [First connection](#first-connection).
+
+<p align="center">
+  <img src="docs/images/demo.gif" alt="Ask Claude for an SEO report — tools run, findings appear" width="640">
+</p>
 
 ## Contents
 
@@ -79,12 +87,22 @@ google-search-console/
 | `find_cannibalization` | Queries split across multiple own URLs, with a suggested owner. |
 | `get_action_center` | Insight reports and site health from the Orgalytics dashboard. |
 
+<p align="center">
+  <img src="docs/images/report-preview.png" alt="Sample SEO performance report card" width="720">
+</p>
+
+Numbers in the sample report are design-document sample data, not live metrics.
+
 ## First connection
 
 1. After install, run `/mcp` and confirm the `google-search-console` server is listed.
 2. The first tool call opens the Orgalytics connect page in your browser.
 3. Sign in with Google and approve the Search Console scopes.
 4. Return to Claude — the tools now return live data.
+
+<p align="center">
+  <img src="docs/images/connect-preview.png" alt="First connection: install, /mcp, OAuth approval" width="640">
+</p>
 
 ## Skills (model-invoked)
 
