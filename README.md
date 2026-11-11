@@ -2,7 +2,7 @@
   <img src="icon.png" alt="Google Search Console MCP for Claude" width="96">
 </p>
 
-# Google Search Console MCP: Claude Plugin
+# Orgalytics AI Insights for Google Search Console
 
 <p>
   <img src="https://img.shields.io/badge/version-0.2.0-1d4ed8" alt="Version">
@@ -23,8 +23,8 @@ This plugin is a **client**: it only connects to the hosted MCP server. It does 
 
 ```
 /plugin marketplace add pappukushwaha-dev/mcp_orgalytics_ai
-/plugin install google-search-console@orgalytics
-/google-search-console:report
+/plugin install orgalytics-ai-insights-for-google-search-console@orgalytics
+/orgalytics-ai-insights-for-google-search-console:report
 ```
 
 The first command that calls a tool opens the OAuth consent page in your browser. See [First connection](#first-connection).
@@ -55,10 +55,10 @@ google-search-console/
 ├── .mcp.json                    # Connects to https://mcp.orgalytics.ai/mcp (OAuth)
 ├── icon.png                     # Plugin icon for the directory listing
 ├── commands/                    # Slash commands (one per workflow)
-│   ├── report.md                # /google-search-console:report            -> search_analytics + compare_periods
-│   ├── opportunities.md         # /google-search-console:opportunities     -> get_growth_opportunities + get_action_center
-│   ├── cannibalization.md       # /google-search-console:cannibalization   -> find_cannibalization
-│   └── sitemaps.md              # /google-search-console:sitemaps          -> list_sitemaps
+│   ├── report.md                # /orgalytics-ai-insights-for-google-search-console:report -> search_analytics + compare_periods
+│   ├── opportunities.md         # /orgalytics-ai-insights-for-google-search-console:opportunities -> get_growth_opportunities + get_action_center
+│   ├── cannibalization.md       # /orgalytics-ai-insights-for-google-search-console:cannibalization -> find_cannibalization
+│   └── sitemaps.md              # /orgalytics-ai-insights-for-google-search-console:sitemaps -> list_sitemaps
 ├── agents/
 │   └── gsc-auditor.md           # Subagent that drives a full Search Console audit end to end
 ├── skills/                      # Model-invoked skills (auto-activate from natural language)
@@ -115,10 +115,10 @@ Skills auto-activate from natural language:
 
 ## Commands (slash commands)
 
-- `/google-search-console:report [date_range]` — SEO performance report.
-- `/google-search-console:opportunities [date_range]` — growth opportunities ranked by impact.
-- `/google-search-console:cannibalization [date_range]` — keyword cannibalization check.
-- `/google-search-console:sitemaps [date_range]` — sitemap status.
+- `/orgalytics-ai-insights-for-google-search-console:report [date_range]` — SEO performance report.
+- `/orgalytics-ai-insights-for-google-search-console:opportunities [date_range]` — growth opportunities ranked by impact.
+- `/orgalytics-ai-insights-for-google-search-console:cannibalization [date_range]` — keyword cannibalization check.
+- `/orgalytics-ai-insights-for-google-search-console:sitemaps [date_range]` — sitemap status.
 
 ## Agent
 

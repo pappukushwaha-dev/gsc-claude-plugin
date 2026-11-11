@@ -52,4 +52,4 @@ tool output.
 
 Used by [[seo-performance-report]], [[growth-opportunities]],
 [[keyword-cannibalization-check]], [[site-health]], and the
-`/google-search-console:*` commands.
+`/orgalytics-ai-insights-for-google-search-console:*` commands.

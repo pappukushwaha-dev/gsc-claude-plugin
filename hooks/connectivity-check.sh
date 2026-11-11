@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SessionStart guard for the Google Search Console MCP plugin.
+# SessionStart guard for the Orgalytics AI Insights for Google Search Console plugin.
 #
 # This is a non-blocking reminder only: it never fails and never mutates state.
 # It cannot see Claude's live MCP connection status, so it just surfaces the
@@ -12,7 +12,7 @@
 # session.
 
 printf '%s\n' \
-  'Google Search Console MCP plugin loaded.' \
+  'Orgalytics AI Insights for Google Search Console plugin loaded.' \
   '' \
   'Before using the Search Console tools (search_analytics, compare_periods,' \
   'find_cannibalization, get_growth_opportunities, get_action_center,' \
@@ -22,6 +22,6 @@ printf '%s\n' \
   '  2. If it is not connected, complete the OAuth prompt. Tools will return' \
   '     401 until you do.' \
   '' \
-  'Quick check once connected: /google-search-console:report'
+  'Quick check once connected: /orgalytics-ai-insights-for-google-search-console:report'
 
 exit 0

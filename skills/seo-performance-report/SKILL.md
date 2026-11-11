@@ -40,4 +40,4 @@ connect the server (OAuth) or check their Orgalytics registration; don't guess.
 - Respect rate limits and plan limits if a tool reports them. Don't retry
   blindly; surface the limit and move on.
 
-Used by [[report-format]] and the `/google-search-console:report` command.
+Used by [[report-format]] and the `/orgalytics-ai-insights-for-google-search-console:report` command.

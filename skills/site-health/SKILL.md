@@ -37,4 +37,4 @@ a domain, a sitemap URL or a connection status.
 - If a tool call fails auth, tell the user to reconnect the server (OAuth).
   Don't guess credentials.
 
-Used by [[report-format]] and the `/google-search-console:sitemaps` command.
+Used by [[report-format]] and the `/orgalytics-ai-insights-for-google-search-console:sitemaps` command.

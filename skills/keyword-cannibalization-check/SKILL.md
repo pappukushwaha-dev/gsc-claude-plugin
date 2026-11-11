@@ -40,4 +40,4 @@ invent a query, a URL or a position.
 - If a tool call fails auth, tell the user to reconnect the server (OAuth).
   Don't guess credentials.
 
-Used by [[report-format]] and the `/google-search-console:cannibalization` command.
+Used by [[report-format]] and the `/orgalytics-ai-insights-for-google-search-console:cannibalization` command.

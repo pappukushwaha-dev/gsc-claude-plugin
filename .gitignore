@@ -1,3 +1,6 @@
+# Local machine state, not plugin content
+.claude/settings.local.json
+
 # Secrets / environment
 .env
 .env.*

@@ -42,4 +42,4 @@ invent a query, a position, an impression count or a suggestion.
 - If a tool call fails auth, tell the user to reconnect the server (OAuth).
   Don't guess credentials.
 
-Used by [[report-format]] and the `/google-search-console:opportunities` command.
+Used by [[report-format]] and the `/orgalytics-ai-insights-for-google-search-console:opportunities` command.
