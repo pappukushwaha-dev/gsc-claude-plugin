@@ -93,7 +93,7 @@ Numbers in the sample report are design-document sample data, not live metrics.
 
 ## First connection
 
-1. After install, run `/mcp` and confirm the `google-search-console` server is listed.
+1. After install, run `/mcp` and confirm the `orgalytics-ai-insights` server is listed.
 2. The first tool call opens the Orgalytics connect page in your browser.
 3. Sign in with Google and approve the Search Console scopes.
 4. Return to Claude — the tools now return live data.
