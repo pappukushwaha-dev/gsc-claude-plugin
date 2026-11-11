@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="icon.png" alt="Google Search Console MCP for Claude" width="96">
-</p>
+![Orgalytics AI Insights for Google Search Console](icon.png)
 
 # Orgalytics AI Insights for Google Search Console
 
@@ -11,9 +9,7 @@
   <img src="https://img.shields.io/badge/read--only-6b6e86" alt="Read-only">
 </p>
 
-<p align="center">
-  <img src="docs/images/banner.png" alt="Google Search Console Claude Plugin" width="720">
-</p>
+![Orgalytics AI Insights for Google Search Console banner](docs/images/banner.png)
 
 Connect Claude to the **Google Search Console MCP server** (`https://mcp.orgalytics.ai/mcp`) so you can pull performance reports with previous-period comparison, find growth opportunities near page one, check keyword cannibalization, and review sitemaps and your store's GSC Action Center — right from Claude.
 
@@ -29,9 +25,7 @@ This plugin is a **client**: it only connects to the hosted MCP server. It does 
 
 The first command that calls a tool opens the OAuth consent page in your browser. See [First connection](#first-connection).
 
-<p align="center">
-  <img src="docs/images/demo.gif" alt="Ask Claude for an SEO report — tools run, findings appear" width="640">
-</p>
+![Ask Claude for an SEO report — tools run, findings appear](docs/images/demo.gif)
 
 ## Contents
 
@@ -53,7 +47,6 @@ google-search-console/
 │   ├── plugin.json              # Plugin manifest
 │   └── marketplace.json         # Marketplace entry so it installs via /plugin
 ├── .mcp.json                    # Connects to https://mcp.orgalytics.ai/mcp (OAuth)
-├── icon.png                     # Plugin icon for the directory listing
 ├── commands/                    # Slash commands (one per workflow)
 │   ├── report.md                # /orgalytics-ai-insights-for-google-search-console:report -> search_analytics + compare_periods
 │   ├── opportunities.md         # /orgalytics-ai-insights-for-google-search-console:opportunities -> get_growth_opportunities + get_action_center
@@ -85,9 +78,7 @@ google-search-console/
 | `find_cannibalization` | Queries split across multiple own URLs, with a suggested owner. |
 | `get_action_center` | Insight reports and site health from the Orgalytics dashboard. |
 
-<p align="center">
-  <img src="docs/images/report-preview.png" alt="Sample SEO performance report card" width="720">
-</p>
+![Sample SEO performance report card](docs/images/report-preview.png)
 
 Numbers in the sample report are design-document sample data, not live metrics.
 
@@ -100,9 +91,7 @@ Numbers in the sample report are design-document sample data, not live metrics.
 
 Once connected, the server exposes 9 read-only tools: `whoami`, `store_info`, `list_properties`, `list_sitemaps`, `search_analytics`, `compare_periods`, `get_growth_opportunities`, `find_cannibalization` and `get_action_center`. If a tool returns 401, run `/mcp` and complete the OAuth prompt.
 
-<p align="center">
-  <img src="docs/images/connect-preview.png" alt="First connection: install, /mcp, OAuth approval" width="640">
-</p>
+![First connection: install, /mcp, OAuth approval](docs/images/connect-preview.png)
 
 ## Skills (model-invoked)
 
