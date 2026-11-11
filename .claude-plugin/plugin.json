@@ -8,7 +8,8 @@
     "url": "https://mcp.orgalytics.ai"
   },
   "homepage": "https://mcp.orgalytics.ai/",
-  "repository": "https://github.com/pappukushwaha-dev/mcp_orgalytics_ai",
+  "repository": "https://github.com/pappukushwaha-dev/gsc-claude-plugin",
+  "privacyPolicyUrl": "https://orgalytics.ai/privacy-policy",
   "license": "MIT",
   "icon": "./icon.png",
   "keywords": ["mcp", "google-search-console", "seo", "analytics", "gsc"]

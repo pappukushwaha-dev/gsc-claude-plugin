@@ -22,7 +22,7 @@ This plugin is a **client**: it only connects to the hosted MCP server. It does 
 ## Quick start
 
 ```
-/plugin marketplace add pappukushwaha-dev/mcp_orgalytics_ai
+/plugin marketplace add pappukushwaha-dev/gsc-claude-plugin
 /plugin install orgalytics-ai-insights-for-google-search-console@orgalytics
 /orgalytics-ai-insights-for-google-search-console:report
 ```
@@ -67,8 +67,6 @@ google-search-console/
 │   ├── keyword-cannibalization-check/  # Queries split across multiple own URLs
 │   ├── site-health/             # Connection, store setup, properties and sitemaps
 │   └── report-format/           # Canonical answer shape (verdict + P1/P2/P3 + tool citations)
-├── hooks/
-│   └── hooks.json               # SessionStart connectivity reminder
 ├── LICENSE                      # MIT
 └── README.md
 ```
@@ -99,6 +97,8 @@ Numbers in the sample report are design-document sample data, not live metrics.
 2. The first tool call opens the Orgalytics connect page in your browser.
 3. Sign in with Google and approve the Search Console scopes.
 4. Return to Claude — the tools now return live data.
+
+Once connected, the server exposes 9 read-only tools: `whoami`, `store_info`, `list_properties`, `list_sitemaps`, `search_analytics`, `compare_periods`, `get_growth_opportunities`, `find_cannibalization` and `get_action_center`. If a tool returns 401, run `/mcp` and complete the OAuth prompt.
 
 <p align="center">
   <img src="docs/images/connect-preview.png" alt="First connection: install, /mcp, OAuth approval" width="640">

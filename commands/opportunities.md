@@ -1,6 +1,6 @@
 ---
 description: Growth opportunities from Search Console — queries near page one, CTR wins and recommended actions, ranked by impact.
-argument-hint: [date_range]
+argument-hint: "[date_range]"
 ---
 
 Find growth opportunities for the connected Search Console property using the Google Search Console MCP tools.

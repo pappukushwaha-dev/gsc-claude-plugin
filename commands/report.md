@@ -1,6 +1,6 @@
 ---
-description: SEO performance report for the connected Search Console property: totals, top queries and pages, with previous-period comparison.
-argument-hint: [date_range]
+description: "SEO performance report for the connected Search Console property: totals, top queries and pages, with previous-period comparison."
+argument-hint: "[date_range]"
 ---
 
 Produce an SEO performance report for the connected Search Console property using the Google Search Console MCP tools.

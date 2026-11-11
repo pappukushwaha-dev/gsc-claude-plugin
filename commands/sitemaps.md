@@ -1,6 +1,6 @@
 ---
 description: Sitemap status for the connected Search Console property — submitted sitemaps, last-submitted dates and indexed page counts.
-argument-hint: [date_range]
+argument-hint: "[date_range]"
 ---
 
 Report sitemap status for the connected Search Console property using the Google Search Console MCP tools.

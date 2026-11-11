@@ -1,6 +1,6 @@
 ---
 description: Keyword cannibalization check — find queries where multiple own URLs rank together, with a primary-page recommendation per query.
-argument-hint: [date_range]
+argument-hint: "[date_range]"
 ---
 
 Check keyword cannibalization for the connected Search Console property using the Google Search Console MCP tools.
